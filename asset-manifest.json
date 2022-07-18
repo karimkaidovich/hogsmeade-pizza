@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hogsmeade-pizza/static/css/main.f83d35a8.css",
+    "main.js": "/hogsmeade-pizza/static/js/main.a56be247.js",
+    "static/media/pizza-logo.jpeg": "/hogsmeade-pizza/static/media/pizza-logo.2cd8f22875b83fa371ce.jpeg",
+    "static/media/empty-cart.jpeg": "/hogsmeade-pizza/static/media/empty-cart.b2cec082586af010d67d.jpeg",
+    "index.html": "/hogsmeade-pizza/index.html",
+    "main.f83d35a8.css.map": "/hogsmeade-pizza/static/css/main.f83d35a8.css.map",
+    "main.a56be247.js.map": "/hogsmeade-pizza/static/js/main.a56be247.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f83d35a8.css",
+    "static/js/main.a56be247.js"
+  ]
+}
