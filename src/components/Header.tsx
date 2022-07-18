@@ -24,7 +24,7 @@ const Header: React.FC = () => {
     <div className="header">
       <div className="container">
         <div className="header__logo">
-          <Link to="/">
+          <Link to="/hogsmeade-pizza">
             <img width="90" src={logoSvg} alt="Pizza logo" />
           </Link>
           <div>

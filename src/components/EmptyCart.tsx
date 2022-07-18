@@ -9,7 +9,7 @@ const EmptyCart: React.FC = () => {
         <h2>Oops, it’s empty here!</h2>
         <p>Minimal order delivery value is £10.00</p>
         <img src={emptyCartImg} alt="Empty cart" />
-        <Link className="button button--black" to="/">
+        <Link className="button button--black" to="/hogsmeade-pizza">
           <span>Back to menu</span>
         </Link>
       </div>

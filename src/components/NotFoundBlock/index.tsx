@@ -7,7 +7,7 @@ export default function NotFoundBlock() {
     <>
       <div className={styles["fourty-four"]}>404</div>
       <div className={styles["not-found"]}>Page is not found...</div>
-      <Link to="/">
+      <Link to="/hogsmeade-pizza">
         <button className={styles.button}>{"<--"} Back to home page</button>
       </Link>
     </>
