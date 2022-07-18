@@ -1,0 +1,61 @@
+@import "../variables";
+
+.header {
+  border-bottom: 1px solid $gray-line;
+  padding: 40px 0;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-right: 15px;
+    }
+
+    h1 {
+      color: #181818;
+      font-size: 2rem;
+      letter-spacing: 1%;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+
+    p {
+      color: #7b7b7b;
+    }
+
+    @media (max-width: 370px) {
+      flex-wrap: wrap;
+
+      a {
+        margin: 0 auto;
+      }
+
+      h1 {
+        text-align: center;
+      }
+    }
+  }
+
+  &__cart {
+    margin-left: auto;
+  }
+
+  @media (max-width: 424px) {
+    padding-bottom: 10px;
+  }
+
+  @media (max-width: 1274px) {
+    .SearchBar {
+      display: none;
+    }
+  }
+}
