@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/hogsmeade-pizza" element={<Home />} />
-        <Route path="/cart" element={<Cart />} />
+        <Route path="/hogsmeade-pizza/cart" element={<Cart />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

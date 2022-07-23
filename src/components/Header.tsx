@@ -41,9 +41,9 @@ const Header: React.FC = () => {
             </p>
           </div>
         </div>
-        {pathname !== "/cart" && (
+        {pathname !== "/hogsmeade-pizza/cart" && (
           <div className="header__cart">
-            <Link to="/cart" className="button button--cart">
+            <Link to="/hogsmeade-pizza/cart" className="button button--cart">
               <span>
                 {cartTotalCount > 0 ? `${cartTotalPrice.toFixed(2)} £` : ""}
               </span>
